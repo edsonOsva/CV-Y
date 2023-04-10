@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    text-align: center; /*centrara todo que no tiene una anchura definida (ver width: 10% en elemento h1)*/
+    font-family: 'Fira Mono', monospace;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+
+h1 {
+    /*width: 10%; /*si el elemento tiene un ancho definido entonces se tiene que centrar utilizando lo siguiente: 
+    margin: 0 auto 0 auto;*/
+    margin: 50px auto 0px auto;
+    padding: 10px;
+    font-size: 5.625rem; /*Dado que 100% = 16px = 1em*/
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+    
+}
+
+
+.points {
+    margin: 0px auto 0px auto;
+    border-top: 7px dotted;
+    color: #808989;
+    width: 4%;
+
+
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.middle-container {
+    /*background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative; /*cambiando la posicion de estatica a relativa
+    left: 30px; /*las coordenadas pueden ser top; bottom;left; right*/
+    background-color: #E4F9F5;
+
+}
+
+.profile {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.skills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.aws-row {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.python-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.aws-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 44;
+    -moz-border-radius: 44;
+    border-radius: 44px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 10%;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+.h3-contact-me {
+    margin-bottom: 50px;
+}
+
+.contact-me {
+    background-color: #E4F9F5;
+    padding-bottom: 5%;
+}
+
+
+.name-footer {
+    color: #EAF6F6;
+    font-size: 10px;
+    margin: 10px auto 0px auto;
+    padding-top: 20px;
+}
+
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a {
+    transition: background-color .5s;
+}
+  
+a:hover {
+    color: white;
+}
+  
+
+
+.bottom-container {
+    /*
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /*display: none; -> No se borra el elemento, el valor de visualización se asigna ninguno. (display: inline-block; se utiliza para alinear los
+    elementos deseados en una sola linea
+    visibility: none; -> El elemento desaparece pero su posicion original y todos los demas elementos siguen fluyendo a su alrededor*/
+    background-color: #66BFBF;
+    padding: 40px;
+}
+
